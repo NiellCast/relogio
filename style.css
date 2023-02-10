@@ -1,0 +1,79 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.main-container {
+    background-color: rgb(41, 39, 39);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-relogio {
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.653);
+    background-image: url('images/background.jpg');
+    padding: 25px;
+    height: 250px;
+    display: flex;
+    flex-basis: 100px;
+    flex-direction: column;
+}
+
+.item {
+    font-family: 'Lobster', cursive;
+    color: whitesmoke;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+#hora {
+    border: 2px solid whitesmoke;
+    box-shadow: 5px 3px 5px rgba(0, 0, 0, 0.818);;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 70px;
+    height: 50px;
+    padding: 15px;
+    align-self: center;
+    flex-grow: 1;
+}
+
+#outras-infos {
+    display: flex;
+    flex-grow: 2;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.item-style {
+    text-shadow: 3px 2px 2px black;
+}
+
+a {
+    font-family: 'Caveat', cursive;
+    color: whitesmoke;
+    font-style: italic;
+    font-size: 20px;
+    text-shadow: 3px 2px 2px black;
+    align-self: center;
+    justify-self: center;
+}
+
+a:hover {
+    transform: scale(1.1);
+}

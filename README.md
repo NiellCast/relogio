@@ -12,7 +12,7 @@
 
 <h2>O que faz</h2>
 
-<p>O objetivo desta aplicação é ser apenas um relógio</p>
+<p>O objetivo desta aplicação é ser apenas um relógio.</p>
 
 <h2>Funcionalidades</h2>
 

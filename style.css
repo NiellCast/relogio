@@ -21,9 +21,9 @@
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.653);
     background-image: url('images/background.jpg');
     padding: 25px;
-    height: 250px;
+    height: 300px;
     display: flex;
-    flex-basis: 100px;
+    flex-basis: 200px;
     flex-direction: column;
 }
 

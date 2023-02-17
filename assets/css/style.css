@@ -1,0 +1,85 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to top, rgb(29, 29, 29), rgb(50, 50, 50));
+    background-attachment: fixed;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.relogio {
+    border: 2px solid black;
+    border-radius: 3px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.653);
+    background-image: url('../images/background.jpg');
+    display: flex;
+    flex-basis: 300px;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+section {
+    width: 100%;
+    height: 50%;
+}
+
+.item {
+    font-family: 'Lobster', cursive;
+    color: whitesmoke;
+    padding: 5px;
+}
+
+#formato-relogio {
+    border: 2px solid whitesmoke;
+    box-shadow: 5px 3px 5px rgba(0, 0, 0, 0.818);
+    border-radius: 50%;
+    height: 100px;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hora-content {
+    padding: 15px;
+}
+
+ul {
+    display: flex;
+}
+
+.item-style {
+    text-shadow: 3px 2px 2px black;
+}
+
+.assinatura {
+    font-family: 'Caveat', cursive;
+    color: whitesmoke;
+    font-style: italic;
+    font-size: 14px;
+    align-self: center;
+    justify-self: center;
+}
+
+.assinatura:hover {
+    transform: scale(1.1);
+}
+
+.coluna-centralizada {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,3 +1,10 @@
+const horario = document.querySelector("#hora-content")
+const diaDaSemanaTag = document.querySelector("#dia-da-semana-content")
+const diadoMesTag = document.querySelector("#dia-do-mes-content")
+const mesTag = document.querySelector("#mes-content")
+let relogio
+
+
 function carregarDados() {
     getHorario()
     getDate()
@@ -5,9 +12,6 @@ function carregarDados() {
 
 
 function getHorario() {
-    const horario = document.querySelector("#hora-content")
-    let relogio
-
     setInterval(() => {
         relogio = new Date()
 
@@ -15,19 +19,17 @@ function getHorario() {
     }, 1000)
 }
 
+
 function fixTime(time) {
     if (time < 10) {
         return `0${time}`
-    } else {
-        return time
     }
+
+    return time
 }
 
-function getDate() {
-    const diaDaSemanaTag = document.querySelector("#dia-da-semana-content")
-    const diadoMesTag = document.querySelector("#dia-do-mes-content")
-    const mesTag = document.querySelector("#mes-content")
 
+function getDate() {
     const diasDaSemana = ['Domingo', 'Segunda', 'Terça', 'Quarta', 'Quinta', 'Sexta', 'Sábado']
     const meses = ['Janeiro', 'Fevereiro', 'Março', 'Abril', 'Maio', 'Junho', 'Julho', 'Agosto', 'Setembro', 'Outubro', 'Novembro', 'Dezembro']
 

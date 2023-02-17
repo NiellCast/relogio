@@ -4,15 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <title>Relógio</title>
 </head>
-<body class="main-container" onload="carregarDados()">
-    <section class="container-relogio">
-        
-        <div id="hora" class="item item-style"><h1 id="hora-content"></h1></div>
+<body onload="carregarDados()">
 
-        <div id="outras-infos">
+    <main class="relogio coluna-centralizada">
+        
+        <section class="coluna-centralizada">
+            <div id="formato-relogio" class="item item-style">
+                <h1 id="hora-content"></h1>
+            </div>
+
+        </section>
+
+        <section class="coluna-centralizada">
             <ul>
                 <li class="item item-style" id="dia-da-semana-content"></li>
                 <li class="item item-style">-</li>
@@ -20,11 +26,13 @@
                 <li class="item item-style">-</li>
                 <li class="item item-style" id="mes-content"></li>
             </ul>
-        </div>
+        </section>
+    </main>
 
-        <a href="https://github.com/niellcast" rel="external" target="_blank">@niell</a>
-    </section>
+    <footer>
+        <a href="https://github.com/niellcast" rel="external" target="_blank" class="item-style assinatura">@niell</a>
+    </footer>
 
-    <script src="script.js"></script>
+    <script src="assets/js/script.js"></script>
 </body>
 </html>

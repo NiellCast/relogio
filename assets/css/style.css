@@ -17,6 +17,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 .relogio {
@@ -27,7 +28,6 @@ body {
     display: flex;
     flex-basis: 300px;
     padding: 15px;
-    margin-top: 20px;
 }
 
 section {
